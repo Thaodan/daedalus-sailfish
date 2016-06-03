@@ -130,14 +130,4 @@ DEFINES += QT_USE_FAST_CONCATENATION QT_USE_FAST_OPERATOR_PLUS QT_NO_DEBUG_OUTPU
 
 
 
-INCLUDEPATH += $$PWD/libqtsparql/include/Qt5Sparql
 
-QMAKE_RPATHDIR += /usr/share/harbour-daedalus/lib
-
-LIBS += -L$$PWD/libqtsparql/lib/ -lQt5Sparql
-
-lib.files += libqtsparql/lib/libQt5Sparql.so.0 \
-        libqtsparql/lib/sparqldrivers
-
-lib.path = /usr/share/harbour-daedalus/lib
-INSTALLS += lib
