@@ -13,6 +13,8 @@
 TARGET = harbour-daedalus
 
 CONFIG += sailfishapp
+# not allowed for harbour
+config += qtsparql
 
 QT += multimedia sql dbus
 
